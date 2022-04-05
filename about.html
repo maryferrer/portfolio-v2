@@ -16,15 +16,37 @@
 </head>
 <body>
     <header>
-        <nav>
-            <span>MF</span>
-            <ul>
-                <li>home</li>
-                <li>projects</li>
-                <li>resumé</li>
-                <li>contact</li>
+        <div class="container">
+            <nav class="navbar navbar-expand-sm">
+                <a class="navbar-brand pink" href="/" title="home">MF</a>
+                <button 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" 
+                class="navbar-toggler"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggles navigation"
+                ><img src="./images/hamburger-icon.png">
+                </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav gap-2">
+                            <li class="nav-item">
+                                <a class="nav-link pink" href="/about.html" title="about" aria-current="page">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pink" href="#projects" title="projects">projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pink" href="/images/Mary_Ferrer_Resume.pdf" target="_blank" title="resumé">resumé</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pink me-4" href="mailto:mary.ferrer6@gmail.com" title="contact">contact</a>
+                            </li>
             </ul>
+                    </div>
         </nav>
+        </div>
     </header>
     <main>
         <div>
