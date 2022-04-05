@@ -190,3 +190,42 @@ footer span {
     width: 100%;
     }
 }
+@media (min-width: 490px) and (max-width: 536px) {
+    .display-1 {
+        font-size: 4rem;
+    }
+    .img-fluid {
+        max-width: 160px;
+    }
+    #about > p, #hobbies p {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    }
+    footer span {
+    font-size: .6rem;
+}
+}
+@media (max-width: 490px) {
+.img-fluid {
+        max-width: 140px;
+    }
+#about > p, #hobbies p {
+    width: 100%;
+    font-size: .9rem;
+    line-height: 1.3rem;
+}
+footer span {
+    font-size: .6rem;
+}
+}
+@media (max-width: 359px) {
+.img-fluid {
+        display: none;
+    }
+footer span {
+    font-size: .5rem;
+}
+}
+
+
