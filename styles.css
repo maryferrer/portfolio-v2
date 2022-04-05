@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=VT323&display=swap");
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 :root {
     --black: #000000;
     --lemon: #FFD583;
     --pink: #EBC2BF;
     --lavender: #C8BBE3;
-    /* --gradient: linear-gradient(90deg, hsla(25, 100%, 61%, 1) 0%, hsla(43, 90%, 55%, 1) 16%, hsla(335, 100%, 68%, 1) 33%, hsla(284, 100%, 74%, 1) 49%, hsla(259, 100%, 72%, 1) 67%, hsla(202, 80%, 54%, 1) 83%, hsla(97, 100%, 44%, 1) 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; */
+    --hotpink: #ff5ca0;
     --body: "Inter";
     --heading: "VT323"
 
