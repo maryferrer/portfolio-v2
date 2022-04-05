@@ -122,4 +122,32 @@ h1, h2 {
 }
 
 /* projects section */
+
+/* about page */
+#about {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+#about > p {
+    width: 85%;
+    line-height: 2rem;
+}
+#about > h1 {
+    padding-top: 10rem;
+}
+#hobbies {
+    padding-top: 3rem;
+}
+.img-fluid {
+    max-width: 200px;
+    border-radius: 10rem;
+}
+.display-1 {
+    margin: 0;
+}
+
+/* about page */
+
 }
