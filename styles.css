@@ -41,4 +41,65 @@ body {
     margin: 0 0 0 2rem;
 }
 /* end Navbar styles */
+
+/* home intro */
+h1, h2 {
+    font-family: "VT323", "Inter";
+}
+.lead {
+    font-weight: 400;
+}
+.gradient-text {
+    background: linear-gradient(90deg, hsla(25, 100%, 61%, 1) 0%, hsla(43, 90%, 55%, 1) 16%, #ff5ca0 33%, hsla(284, 100%, 74%, 1) 49%, #9d70ff 67%, #2ca3e8 83%, #56e000 100%);
+    width: fit-content;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+#intro {
+    height: calc(100vh - 5rem);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+#intro > p {
+    width: 85%;
+    margin-bottom: 6rem;
+}
+.pink {
+    color: black;
+    -webkit-transition: color .2s ease-out;
+    -moz-transition: color .2s ease-out;
+    -o-transition: color .2s ease-out;
+    transition: color .2s ease-out;
+}
+.pink:hover {
+    color: var(--hotpink)
+}
+.explore-btn {
+    color: black;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-size: 1.5rem;
+}
+.explore-btn > i:hover {
+    color: var(--hotpink);
+}
+.explore-btn {
+    transition-delay: 0.8s;
+    animation: bounce 1s infinite alternate;
+}
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-15px);
+    }
+}
+/* home intro */
 }
