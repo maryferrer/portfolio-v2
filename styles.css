@@ -102,4 +102,24 @@ h1, h2 {
     }
 }
 /* home intro */
+
+/* projects section */
+.project-container {
+    position: absolute;
+    border: solid red;
+}
+.yellow-box {
+    position: relative;
+    background: var(--lemon);
+    width: 55%;
+    min-height: 65%;
+}
+.rf {
+    width: 100%;
+    position: relative;
+    top: 4rem;
+    left: 4rem;
+}
+
+/* projects section */
 }
