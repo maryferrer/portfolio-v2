@@ -241,6 +241,7 @@ footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    gap: 1rem;
 }
 footer a {
     color: black;
@@ -248,6 +249,7 @@ footer a {
 }
 footer span {
     font-size: .8rem;
+    padding-right: 1rem;
 }
 /* footer */
 
@@ -283,7 +285,7 @@ footer span {
     #about img {
         max-width: 160px;
     }
-    #about > p, #hobbies p {
+    #about > p, #hobbies p, #intro > p, .projects-p {
     width: 100%;
     font-size: 1rem;
     line-height: 1.3rem;
@@ -296,13 +298,25 @@ footer span {
 #about img {
         max-width: 140px;
     }
-#about > p, #hobbies p {
+#about > p, #hobbies p, #intro > p, .projects-p, .card-text, #tech {
     width: 100%;
     font-size: .9rem;
     line-height: 1.3rem;
 }
+.card-title {
+    font-size: 1.3rem;
+}
+.btn-lg {
+    font-size: 1rem;
+}
 footer span {
-    font-size: .6rem;
+    font-size: 0.6rem;
+}
+footer ul {
+    gap: 0.5rem;
+}
+footer i {
+    font-size: 2rem;
 }
 .nav-link {
     font-size: 1.3rem;
@@ -315,5 +329,11 @@ footer span {
     }
 footer span {
     font-size: .5rem;
+}
+footer ul {
+    gap: 0.3rem;
+}
+footer i {
+    font-size: 1.5rem;
 }
 }
