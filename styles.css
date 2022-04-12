@@ -24,9 +24,6 @@ body {
 }
 
 /* Navbar styles */
-.navbar {
-    height: 5rem;
-}
 .navbar-brand, .nav-link {
     color: var(--black);
     font-weight: 500;
@@ -227,6 +224,10 @@ footer span {
 footer span {
     font-size: .6rem;
 }
+.nav-link {
+    font-size: 1.3rem;
+    padding: 0.2rem;
+}
 }
 @media (max-width: 359px) {
 #about img {
@@ -236,188 +237,3 @@ footer span {
     font-size: .5rem;
 }
 }
-
-
-/* CARDS TEST */
-/* 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-div,
-input,
-p,
-a {
-    margin: 0px;
-}
-
-a,
-a:hover,
-a:focus {
-    color: inherit;
-}
-
-body {
-    background-color: #F1F2F3;
-}
-
-.container-fluid,
-.container {
-    max-width: 1200px;
-}
-
-.card-container {
-    padding: 100px 0px;
-    -webkit-perspective: 1000;
-    perspective: 1000;
-}
-
-.profile-card-4 {
-    max-width: 700px;
-    background-color: #FFF;
-    border-radius: 5px;
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    position: relative;
-    margin: 10px auto;
-    cursor: pointer;
-}
-
-.profile-card-4 img {
-    max-width: 100%;
-    transition: all 0.25s linear;
-}
-
-.profile-card-4 .profile-content {
-    position: relative;
-    padding: 15px;
-    background-color: #FFF;
-}
-
-.profile-card-4 .profile-name {
-    font-weight: bold;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: -70px;
-    color: #FFF;
-    font-size: 17px;
-}
-
-.profile-card-4 .profile-name p {
-    font-weight: 600;
-    font-size: 13px;
-    letter-spacing: 1.5px;
-}
-
-.profile-card-4 .profile-description {
-    color: #777;
-    font-size: 12px;
-    padding: 10px;
-}
-
-.profile-card-4 .profile-overview {
-    padding: 15px 0px;
-}
-
-.profile-card-4 .profile-overview p {
-    font-size: 10px;
-    font-weight: 600;
-    color: #777;
-}
-
-.profile-card-4 .profile-overview h4 {
-    color: #273751;
-    font-weight: bold;
-}
-
-.profile-card-4 .profile-content::before {
-    content: "";
-    position: absolute;
-    height: 20px;
-    top: -10px;
-    left: 0px;
-    right: 0px;
-    background-color: #FFF;
-    z-index: 0;
-    transform: skewY(3deg);
-}
-
-.profile-card-4:hover img {
-    transform: rotate(5deg) scale(1.1, 1.1);
-    filter: brightness(110%);
-}
-
-.profile-card-6 {
-    max-width: 900px;
-    background-color: #FFF;
-    border-radius: 5px;
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    position: relative;
-    margin: 10px auto;
-    cursor: pointer;
-}
-
-.profile-card-6 img {
-    max-width: 100%;
-    transition: all 0.15s linear;
-}
-
-.profile-card-6 .profile-name {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 25px;
-    font-weight: bold;
-    color: #FFF;
-    padding: 15px 20px;
-    background: linear-gradient(150deg, rgba(0, 0, 0, 0.4) 50%, rgba(255, 255, 0, 0) 50%);
-    transition: all 0.15s linear;
-}
-
-.profile-card-6 .profile-position {
-    position: absolute;
-    color: rgb(206, 206, 206);
-    left: 30px;
-    top: 105px;
-    transition: all 0.15s linear;
-}
-
-.profile-card-6 .profile-overview {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 50%, rgba(255, 255, 0, 0));
-    color: #FFF;
-    padding: 50px 0px 20px 0px;
-    transition: all 0.15s linear;
-}
-
-.profile-card-6 .profile-overview h3 {
-    font-weight: bold;
-}
-
-.profile-card-6 .profile-overview p {
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.profile-card-6:hover img {
-    filter: brightness(30%);
-}
-
-.profile-card-6:hover .profile-name {
-    padding-left: 25px;
-    padding-top: 20px;
-}
-
-.profile-card-6:hover .profile-position {
-    left: 40px;
-}
-
-.profile-card-6:hover .profile-overview {
-    padding-bottom: 25px;
-} */
