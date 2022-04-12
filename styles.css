@@ -38,6 +38,10 @@ body {
 .navbar-brand {
     margin: 0 0 0 2rem;
 }
+.navbar-nav{
+margin: 0 0 0 2rem;
+padding: 0;
+}
 /* end Navbar styles */
 
 /* home intro */
