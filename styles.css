@@ -39,6 +39,9 @@ body {
 margin: 0 0 0 2rem;
 padding: 0;
 }
+.favicon {
+    max-width: 40px;
+}
 /* end Navbar styles */
 
 /* home intro */
