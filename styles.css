@@ -112,7 +112,6 @@ h1, h2 {
 /* home intro */
 
 /* projects section */
-<<<<<<< HEAD
 .p {
     margin: 0;
     padding: 0;
@@ -135,81 +134,8 @@ h1, h2 {
 #tech {
     font-style: italic;
     list-style-type: none;
-    
+    flex-flow: row wrap;
 }
-=======
-.project-container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr [col-start]);
-    grid-template-rows: repeat(12, 1fr [row-start]);
-    margin-bottom: 2rem;
-}
-#projects p {
-    margin-bottom: 2rem;
-}
-.yellow-box {
-    background: var(--lemon);
-    grid-column: 2 / 11;
-    grid-row: 1 / 13;
-}
-.rf, .bc {
-    max-width: 90%;
-    grid-column: 3 / span 11;
-    grid-row: 2 / span 10;
-    box-shadow: 4px 4px 1rem #575757;
-    display: block;
-}
-.lavender-box {
-    background: var(--lavender);
-    grid-column: 2 / 11;
-    grid-row: 1 / 13;
-}
-.project-container-reverse {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr [col-start]);
-    grid-template-rows: repeat(12, 1fr [row-start]);
-    margin-bottom: 2rem;
-}
-.pink-box {
-    background: var(--pink);
-    grid-column: 3 / 12;
-    grid-row: 1 / 13;
-}
-.tj {
-    max-width: 80%;
-    grid-column: 2 / span 13;
-    grid-row: 2 / span 10;
-    box-shadow: -4px 4px 1rem #575757;
-}
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: auto;
-    width: auto;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: antiquewhite;
-}
-.project-container:hover .overlay {
-    opacity: 1;
-}
-.text {
-    color: white;
-    font-size: 1rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-
->>>>>>> 0b095e59d2c0ac5bb02d20cb838411258bab7795
 /* projects section */
 
 /* about page */
