@@ -12,43 +12,47 @@
     <!-- Bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <title>Mary Ferrer's Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <nav class="navbar navbar-expand-sm">
-                <a class="navbar-brand pink" href="/portfolio-v2" aria-current="page" title="home">MF</a>
+    <header role="banner">
+        <div class="container mb-0">
+        <nav class="navbar navbar-expand-sm mb-0">
+                <a class="navbar-brand active pink" href="/" aria-current="page" title="home"><img src="./favicon/favicon-32x32.png"></a>
                 <button 
                 type="button" 
                 data-bs-toggle="collapse" 
                 data-bs-target="#navbarNav" 
-                class="navbar-toggler"
+                class="navbar-toggler m-v collapsed"
                 aria-controls="navbarNav"
                 aria-expanded="false"
-                aria-label="Toggles navigation"
-                ><img src="./images/hamburger-icon.png">
+                aria-label="Toggle navigation"
+                ><img class="mx-3" src="./images/hamburger-icon.png">
                 </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                        <ul class="navbar-nav gap-2">
+                        <ul class="navbar-nav gap-0">
                             <li class="nav-item">
-                                <a class="nav-link pink" href="/portfolio-v2/about" title="about">about</a>
+                                <a class="nav-link pink" href="/about" title="about">about</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link pink" href="/portfolio-v2/#projects" title="projects">projects</a>
+                                <a class="nav-link pink" href="#projects" title="projects">projects</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link pink" href="/portfolio-v2/images/Mary_Ferrer_Resume.pdf" target="_blank"  title="resumé">resumé</a>
+                                <a class="nav-link pink" href="/Mary_Ferrer_Resume.pdf" target="_blank"  title="resumé">resumé</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link pink me-4" href="" title="contact">contact</a>
+                                <a class="nav-link pink me-4" href="mailto:mary.ferrer6@gmail.com" target="_blank"  title="email">contact</a>
                             </li>
                         </ul>
                     </div>
-            </nav>
-        </div>
+                </nav>
+            </div>
     </header>
 
 <div class="container">
@@ -56,20 +60,89 @@
         <article class="mx-3">
             <section class="container" id="intro">
                 <h1 class="gradient-text display-1">Mary Ferrer</h1>
-                <p class="lead">Hi there! I am a front-end developer based in Washington who deeply enjoys building beautiful web applications. You can download my resumé <a class="pink" href="./images/Mary_Ferrer_Resume.pdf" target="_blank">here</a> and read more about me over <a class="pink" href="/portfolio-v2/about">here</a>.</p>
+                <p class="lead">Hi there! I am a front-end developer based in Washington who deeply enjoys building beautiful web applications. You can download my resumé <a class="pink" href="/Mary_Ferrer_Resume.pdf" target="_blank" title="download resumé">here</a> and read more about me over <a class="pink" href="/about" title="about">here</a>.</p>
                 <p>
 
-                <a href="#scroll-down" class="explore-btn" title="scroll down">
+                <a href="#scroll" class="explore-btn" title="scroll down">
                 <i class="bi bi-arrow-down"></i>
                 </a>
             </section>
 
-            <a id="scroll-down"></a>
+            <a id="scroll"></a>
 
             <section class="container" id="projects">
                 <h2 class="gradient-text display-2">Projects</h2>
-                <p class="lead">Below are a handful of projects I've built during my front-end learning journey. </br>The code for these projects and additional examples of my work can be found on my <a class ="pink" href="https://github.com/maryferrer" target="_blank">GitHub</a></p>
+                <p class="lead projects-p">Below are a handful of projects I've built during my front-end learning journey. </br>The code for these projects and additional examples of my work can be found on my <a class ="pink" href="https://github.com/maryferrer" target="_blank">GitHub</a></p>
 
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+        <div class="card m-2" style="max-width: 800px;">
+            <img src="/images/rolling-fish.png" class="card-img-top img-fluid" alt="Rolling Fish website">
+            <div class="card-body">
+                <h5 class="card-title">Rolling Fish Website</h5>
+                <p class="card-text">This catering services website was designed and built with a mobile-first approach to highlight key content and allow for an easy to navigate customer experience across all platforms.</p>
+                <ul class="d-flex gap-2 p-0" id="tech">
+                    <li>Technologies:</li> 
+                    <li>HTML</li> 
+                    <li>CSS</li> 
+                    <li>Bootstrap5</li> 
+                </ul>
+                <a href="https://maryferrer.github.io/rolling-fish/" target="_blank" class="btn btn-outline-success btn-lg" title="View Project">View Project</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card m-2" style="max-width: 800px;">
+            <img src="/images/travel-journal.png" class="card-img-top img-fluid" alt="travel journal">
+            <div class="card-body">
+                <h5 class="card-title">Travel Journal</h5>
+                <p class="card-text">Exploring new places is a must and so is remembering those experiences. Hence, my personal travel journal to document various activities around the world. Utilizes reusable React card components for each entry.</p>
+                <ul class="d-flex gap-2 p-0" id="tech">
+                    <li>Technologies:</li> 
+                    <li>HTML</li> 
+                    <li>CSS</li> 
+                    <li>React</li> 
+                </ul>
+                <a href="https://maryferrer.github.io/travel-journal/" target="_blank" class="btn btn-outline-success btn-lg" title="View Project">View Project</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card m-2" style="max-width: 800px;">
+            <img src="/images/online-bc.png" class="card-img-top img-fluid" alt="online business card">
+            <div class="card-body">
+                <h5 class="card-title">Online Business Card</h5>
+                <p class="card-text">Carrying 100+ business cards with you at every convention and professional event is a thing of the past! Now, I can pass along a url instead that links to my static React business card.</p>
+                <ul class="d-flex gap-2 p-0" id="tech">
+                    <li>Technologies:</li> 
+                    <li>HTML</li> 
+                    <li>CSS</li> 
+                    <li>React</li> 
+                </ul>
+                <a href="https://maryferrer.github.io/online-business-card/" target="_blank" class="btn btn-outline-success btn-lg" title="View Project">View Project</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card m-2" style="max-width: 800px;">
+            <img src="/images/meme-generator.png" class="card-img-top img-fluid" alt="online business card">
+            <div class="card-body">
+                <h5 class="card-title">Meme Generator</h5>
+                <p class="card-text">Memes: communicating to the masses what words alone sometimes fail to do. This React app fetches random meme images from an API so you can create your own memes with custom text.</p>
+                <ul class="d-flex gap-2 p-0" id="tech">
+                    <li>Technologies:</li> 
+                    <li>HTML</li> 
+                    <li>CSS</li> 
+                    <li>React</li> 
+                    <li>React Hooks</li> 
+                </ul>
+                <a href="https://maryferrer.github.io/meme-generator/" target="_blank" class="btn btn-outline-success btn-lg" title="View Project">View Project</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 
                 <div class="project-container">
                     <div class="yellow-box"></div>
                     <img class="img-fluid rf" src="./images/rolling-fish.png" alt="Rolling Fish website">
@@ -89,7 +162,7 @@
             </section>
         </article>
     </main>
-</div>
+</div> -->
 
     <footer>
         <div class="container p-4 d-flex flex-row align-items-center">
