@@ -31,6 +31,43 @@ body {
 }
 .nav-link {
     font-size: 24px;
+    padding: 0;
+}
+.nav-item {
+    margin: 0.3rem;
+}
+.nav-link:visited {
+    color: black !important;
+}
+.pink {
+    color: black;
+    -webkit-transition: color .2s ease-out;
+    -moz-transition: color .2s ease-out;
+    -o-transition: color .2s ease-out;
+    transition: color .2s ease-out;
+}
+.pink:hover {
+    color: var(--hotpink);
+}
+.pinkHover:hover {
+    -webkit-filter: drop-shadow(10px 10px 7px 1px #ff5ca0);
+    filter: drop-shadow(10px 10px 7px #ff5ca0);
+    color: black;
+}
+.purpleHover:hover {
+    -webkit-filter: drop-shadow(10px 10px 7px 1px #9d70ff);
+    filter: drop-shadow(10px 10px 7px #9d70ff);
+    color: black;
+}
+.blueHover:hover {
+    -webkit-filter: drop-shadow(10px 10px 7px 1px #2ca3e8);
+    filter: drop-shadow(10px 10px 7px #2ca3e8);
+    color: black;
+}
+.greenHover:hover {
+    -webkit-filter: drop-shadow(10px 10px 7px 1px #56e000);
+    filter: drop-shadow(10px 10px 7px #56e000);
+    color: black;
 }
 .navbar-brand {
     margin: 0 0 0 2rem;
