@@ -178,6 +178,9 @@ h1, h2 {
 .display-1 {
     margin: 0;
 }
+.hobbies > .img-fluid {
+    max-width: 28px;
+}
 
 /* about page */
 
