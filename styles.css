@@ -87,6 +87,7 @@ h1, h2 {
 }
 .lead {
     font-weight: 400;
+    font-size: 1.1rem;
 }
 .gradient-text {
     background: linear-gradient(90deg, hsla(25, 100%, 61%, 1) 0%, hsla(43, 90%, 55%, 1) 16%, #ff5ca0 33%, hsla(284, 100%, 74%, 1) 49%, #9d70ff 67%, #2ca3e8 83%, #56e000 100%);
