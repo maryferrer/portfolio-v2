@@ -221,10 +221,14 @@ footer span {
         max-width: 160px;
     }
     #about > p {
+    font-size: 1rem;
+    line-height: 1.3rem;
     width: 100%;
     }
     #hobbies > p {
     width: 100%;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
     }
 }
 @media (min-width: 490px) and (max-width: 536px) {
@@ -234,10 +238,17 @@ footer span {
     #about img {
         max-width: 160px;
     }
-    #about > p, #hobbies p, #intro > p, .projects-p {
+    #about > p, #intro > p, .projects-p {
     width: 100%;
-    font-size: 1rem;
+    font-size: .9rem;
     line-height: 1.3rem;
+    }
+    #hobbies p {
+    width: 100%;
+    font-size: .7rem;
+    }
+    #hobbies img {
+        max-width: 25px;
     }
     footer span {
     font-size: .6rem;
@@ -247,11 +258,16 @@ footer span {
 #about img {
         max-width: 140px;
     }
-#about > p, #hobbies p, #intro > p, .projects-p, .card-text, #tech {
+#about > p, #intro > p, .projects-p, .card-text, #tech {
     width: 100%;
-    font-size: .9rem;
+    font-size: .8rem;
     line-height: 1.3rem;
 }
+#hobbies p {
+    width: 100%;
+    font-size: .7rem;
+    line-height: 1rem;
+    }
 .card-title {
     font-size: 1.3rem;
 }
